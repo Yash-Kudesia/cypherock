@@ -1,0 +1,312 @@
+body {
+    background-color: #0A1018;
+    color: white;
+    font-family: Lato !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    border: 1px solid #1A1F26;
+}
+
+.logo {
+    height: 32px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.head-div {
+    display: flex;
+    width: 965px;
+    padding-right: 50px;
+}
+
+.head-logo {
+    width: fit-content;
+    display: flex;
+    margin-left: 45px;
+}
+
+.head-logo div {
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+
+.head-icons {
+    float: right;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.head-icons div {
+    display: flex;
+}
+
+.icon-div {
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #A6A2A2;
+    width: 20px;
+    height: 21px;
+}
+
+.hi-div:hover {
+    cursor: pointer;
+}
+
+
+/* now main body */
+.sidebar {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 199px;
+    background: #161C23;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.parts {
+    display: flex;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.parts:hover {
+    border-left: 1px solid #C78D4E;
+}
+
+.parts-logo {
+    width: 25%;
+    text-align: end;
+}
+
+.parts-logo:hover {
+    cursor: pointer;
+}
+
+.parts-content {
+    text-align: start;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.parts-content:hover {
+    cursor: pointer;
+}
+
+.pc-div {
+    display: flex;
+    margin-left: 8px;
+    padding-top: 10px;
+    color: #7D6D5C;
+}
+
+.pc-div-img {
+    margin-left: 30px;
+}
+
+.pc-div-img img {
+    width: 13px;
+    height: 3px;
+}
+
+.pc-div-content a:active {
+    color: #C78D4E;
+}
+
+.mb-button {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 142px;
+    height: 38px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9898FF;
+    border: 1px solid #5151FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.support-btn {
+    color: white;
+    text-align: center;
+    width: 199px;
+    height: 44px;
+    background: #4B3C2B;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 110px;
+}
+
+.main {
+    max-width: 700px;
+    min-width: 700px;
+    margin-left: 50px;
+}
+.main-head{
+    width: 75px;
+    height: 24px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E2C19D;
+}
+.main-option-2{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.main-select{
+    margin: auto;
+    margin-right: 31px;
+}
+.main-select select{
+    background: transparent;
+    border: none;
+    color: #BEB4A8;
+    padding-right: 7px;
+}
+option {
+    background-color: #0A1018;
+}
+.mo2-part{
+    display: flex;
+    width: 220px;
+    height: 35px;
+    background-color:#141921;
+    border: 1px solid #343231;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.mo2-part p{
+    margin-top: 11px;
+    font-size: 9px;
+    line-height: 11px;
+    color: #BEB4A8;
+}
+.coin-count {
+    margin-top: 50px;
+    display: flex;
+    color: #ADABAA;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    
+}
+
+.coin-headings {
+    display: flex;
+}
+
+.coin-headings div {
+    width: 18.5%;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #474848;
+    margin-left:6px;
+}
+
+.coin-entry {
+    display: flex;
+    width: 701px;
+    height: 50px;
+    background-color: #161C23;
+    color: #ADABAA;
+    margin: 5px 0 10px 0;
+}
+
+.currency-icon {
+    width: 38px;
+    height: 36px;
+    margin-top: 6px;
+}
+
+.coin-part {
+    display: flex;
+    min-width: 125px;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.coin-part div {
+    margin-left: 5px;
+}
+
+.coin-details {
+    margin-top: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.sr-column {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.sr-column div {
+    display: flex;
+}
+
+.sr-column div:hover {
+    cursor: pointer;
+}
+
+.vertical-line {
+    margin: 5px 0 0 5px;
+    width: 13px;
+    height: 0px;
+    border: 1px solid #222D3A;
+    transform: rotate(90deg);
+}
+.mr-20{
+    margin-right: 20px;
+}
+.sync-icon{
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+    margin-top: 11px;
+}
+.srch-icon{
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.add-del-icons{
+    width: 10.12px;
+    height: 10px;
+    margin-right: 10px;
+    margin-top: 11px;
+    margin-left: 10px;
+}

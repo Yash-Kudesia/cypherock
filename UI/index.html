@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/index.css">
+    <link rel="stylesheet" href="styles/css/modal.css">
+    <link rel="stylesheet" href="styles/css/switch-toggle.css">
+    <title>CypherRock</title>
+</head>
+
+<body>
+    <div class="head-div">
+        <div class="head-logo">
+            <img src="styles/img/logo.png" class="logo" alt="">
+            <div>cySync</div>
+        </div>
+        <div class="head-icons">
+            <div>
+                <div class="hi-div"><img src="styles/img/head-minimise.png" class="icon-div"
+                        style="height: 1px;margin-top: 8px;" alt=""></div>
+                <div class="hi-div"><img src="styles/img/head-rect.png" class="icon-div" alt=""></div>
+                <div class="hi-div"><img src="styles/img/head-cross.png" class="icon-div" style="width: 18px;" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <main>
+        <div style="display: flex;padding-bottom: 50px;">
+            <div class="sidebar">
+                <div class="parts">
+                    <div class="parts-logo">
+                        <img src="styles/img/portfolio.svg" alt="">
+                    </div>
+                    <div class="parts-content">
+                        Portfolio
+                    </div>
+                </div>
+                <hr>
+                <div class="parts">
+                    <div class="parts-logo">
+                        <img src="styles/img/wallets.svg" alt="">
+                    </div>
+                    <div class="parts-content" style="color: #E2C19D;">
+                        Wallets
+                        <div>
+                            <div class="pc-div">
+                                <div class="pc-div-content">
+                                    <a href="">Wallet 1</a>
+                                </div>
+                                <div class="pc-div-img"><img src="styles/img/wallets-dots.png" alt=""></div>
+                            </div>
+                            <div class="pc-div">
+                                <div class="pc-div-content">
+                                    <a href="">Wallet 2</a>
+                                </div>
+                                <div class="pc-div-img"><img src="styles/img/wallets-dots.png" alt=""></div>
+                            </div>
+                            <div class="pc-div">
+                                <div class="pc-div-content">
+                                    <a href="">Wallet 3</a>
+                                </div>
+                                <div class="pc-div-img"><img src="styles/img/wallets-dots.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="parts" style="margin-top: 5px;">
+                    <div class="parts-logo">
+                        <img src="styles/img/lasttrans.svg" alt="">
+                    </div>
+                    <div class="parts-content">
+                        Last Transaction
+                    </div>
+                </div>
+                <hr>
+                <div class="parts">
+                    <div class="parts-logo">
+                        <img src="styles/img/tutorials.svg" alt="">
+                    </div>
+                    <div class="parts-content">
+                        Tutorials
+                    </div>
+                </div>
+                <hr>
+                <div class="parts">
+                    <div class="parts-logo">
+                        <img src="styles/img/settings.svg" alt="">
+                    </div>
+                    <div class="parts-content">
+                        Setting
+                    </div>
+                </div>
+                <hr>
+                <button class="mb-button">Make beneficiary</button>
+                <button class="support-btn">Support</button>
+            </div>
+            <div class="main">
+                <div style="height: 100px;">
+                    <div style="display: flex;justify-content: flex-end;margin-bottom: 10px;">
+                        <div style="margin-right: 20px;display: flex;">
+                            <div>
+                                <img src="styles/img/sync.png" class="sync-icon" alt="">
+                            </div>
+                            <p style="color: #F5CEA3;font-weight: 600; font-size: 14px;">Syncronzied</p>
+                        </div>
+                        <div style="border-left:1px solid #403D3A;height: 17px;margin-top: 12px;">
+                            <label class="switch" style="margin-top: 4px;margin-left: 20px;">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="main-option-2">
+                        <div class="mo2-part">
+                            <div>
+                                <img src="styles/img/search-icom.png" class="srch-icon" alt="">
+                            </div>
+                            <input type="text" placeholder="Serach Your Coin"
+                                style="color: #ADABAA;background: transparent;border:none">
+                        </div>
+                        <div class="mo2-part" style="width: 160px;">
+                            <div style="display: flex;">
+                                <div>
+                                    <img src="styles/img/add-icon.png" class="add-del-icons" alt="">
+                                </div>
+                                <p>ADD COIN</p>
+                            </div>
+                            <div style="    margin-left: 10px;
+                            margin-top: 8px;
+                            height: 14px;
+                            width: 2px;
+                            background: #403D3A;
+                            color: #403D3A;"></div>
+                            <div style="display: flex;">
+                                <div>
+                                    <img src="styles/img/delete-icon.png" class="add-del-icons" alt="">
+                                </div>
+                                <p>DELETE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-head">
+                        Wallet 1
+                    </div>
+                </div>
+                <div class="coin-count">
+                    Total Coins -
+                    <div style="margin-left: 5px;">7</div>
+                    <div class="main-select">
+                        <select name="" id="">
+                            <option value="">Amount High - Low</option>
+                            <option value="">Amount Low - High</option>
+                            <option value="">Arrange A - Z</option>
+                            <option value="">Arrange Z - A</option>
+                        </select>
+                    </div>
+                </div>
+               
+                <hr style="width: 700px;height:0px;margin:15px 0 25px 0;">
+                <div>
+                    <div class="coin-headings">
+                        <div>Coin</div>
+                        <div>Holding</div>
+                        <div>Value</div>
+                        <div>Price</div>
+                        <div>Action</div>
+                    </div>
+                    <div style="max-height: 450px;overflow-y: auto;overflow-x: hidden;">
+                        <div class="coin-entry">
+                            <div class="coin-part mr-20">
+                                <div>
+                                    <img src="styles/img/bitcoin.png" class="currency-icon" alt="">
+                                </div>
+                                <div class="coin-details">
+                                    BITCOIN
+                                </div>
+                            </div>
+                            <div class="coin-part coin-details">
+                                BTC 0.00256
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 0.5268
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 1.2586
+                            </div>
+                            <div class="coin-part coin-details sr-column">
+                                <div style="color: #8484F1">
+                                    <div style="margin-right: 5px;">&#8601;</div>
+                                    <div onclick="show('recieve_modal')">Recieve</div>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div style="color:#CAA276;">
+                                    <div style="margin-right: 5px;">&#8599;</div>
+                                    <div>Send</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="coin-entry">
+                            <div class="coin-part mr-20">
+                                <div>
+                                    <img src="styles/img/ethereum.png" class="currency-icon" alt="">
+                                </div>
+                                <div class="coin-details">
+                                    ETHEREUM
+                                </div>
+                            </div>
+                            <div class="coin-part coin-details">
+                                ETH 0.0025600
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 0.5268
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 1.2586
+                            </div>
+                            <div class="coin-part coin-details sr-column">
+                                <div style="color: #8484F1">
+                                    <div style="margin-right: 5px;">&#8601;</div>
+                                    <div onclick="show('recieve_modal')">Recieve</div>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div style="color:#CAA276;">
+                                    <div style="margin-right: 5px;">&#8599;</div>
+                                    <div>Send</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="coin-entry">
+                            <div class="coin-part mr-20">
+                                <div>
+                                    <img src="styles/img/binance.png" class="currency-icon" alt="">
+                                </div>
+                                <div class="coin-details">
+                                    BINANCE
+                                </div>
+                            </div>
+                            <div class="coin-part coin-details">
+                                ETH 0.0025600
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 0.5268
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 1.2586
+                            </div>
+                            <div class="coin-part coin-details sr-column">
+                                <div style="color: #8484F1">
+                                    <div style="margin-right: 5px;">&#8601;</div>
+                                    <div onclick="show('recieve_modal')">Recieve</div>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div style="color:#CAA276;">
+                                    <div style="margin-right: 5px;">&#8599;</div>
+                                    <div>Send</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="coin-entry">
+                            <div class="coin-part mr-20">
+                                <div>
+                                    <img src="styles/img/bitcoin.png" class="currency-icon" alt="">
+                                </div>
+                                <div class="coin-details">
+                                    BITCOIN
+                                </div>
+                            </div>
+                            <div class="coin-part coin-details">
+                                BTC 0.00256
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 0.5268
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 1.2586
+                            </div>
+                            <div class="coin-part coin-details sr-column">
+                                <div style="color: #8484F1">
+                                    <div style="margin-right: 5px;">&#8601;</div>
+                                    <div onclick="show('recieve_modal')">Recieve</div>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div style="color:#CAA276;">
+                                    <div style="margin-right: 5px;">&#8599;</div>
+                                    <div>Send</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="coin-entry">
+                            <div class="coin-part mr-20">
+                                <div>
+                                    <img src="styles/img/ethereum.png" class="currency-icon" alt="">
+                                </div>
+                                <div class="coin-details">
+                                    ETHEREUM
+                                </div>
+                            </div>
+                            <div class="coin-part coin-details">
+                                ETH 0.0025600
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 0.5268
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 1.2586
+                            </div>
+                            <div class="coin-part coin-details sr-column">
+                                <div style="color: #8484F1">
+                                    <div style="margin-right: 5px;">&#8601;</div>
+                                    <div onclick="show('recieve_modal')">Recieve</div>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div style="color:#CAA276;">
+                                    <div style="margin-right: 5px;">&#8599;</div>
+                                    <div>Send</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="coin-entry">
+                            <div class="coin-part mr-20">
+                                <div>
+                                    <img src="styles/img/binance.png" class="currency-icon" alt="">
+                                </div>
+                                <div class="coin-details">
+                                    BINANCE
+                                </div>
+                            </div>
+                            <div class="coin-part coin-details">
+                                ETH 0.0025600
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 0.5268
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 1.2586
+                            </div>
+                            <div class="coin-part coin-details sr-column">
+                                <div style="color: #8484F1">
+                                    <div style="margin-right: 5px;">&#8601;</div>
+                                    <div onclick="show('recieve_modal')">Recieve</div>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div style="color:#CAA276;">
+                                    <div style="margin-right: 5px;">&#8599;</div>
+                                    <div>Send</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="coin-entry">
+                            <div class="coin-part mr-20">
+                                <div>
+                                    <img src="styles/img/ethereum.png" class="currency-icon" alt="">
+                                </div>
+                                <div class="coin-details">
+                                    ETHEREUM
+                                </div>
+                            </div>
+                            <div class="coin-part coin-details">
+                                ETH 0.0025600
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 0.5268
+                            </div>
+                            <div class="coin-part coin-details">
+                                $ 1.2586
+                            </div>
+                            <div class="coin-part coin-details sr-column">
+                                <div style="color: #8484F1">
+                                    <div style="margin-right: 5px;">&#8601;</div>
+                                    <div onclick="show('recieve_modal')">Recieve</div>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div style="color:#CAA276;">
+                                    <div style="margin-right: 5px;">&#8599;</div>
+                                    <div>Send</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        function show(x) {
+            document.getElementById(x).style.display = "flex";
+        }
+        function close_modal() {
+            console.log("Hey");
+            var ele = document.getElementById("recieve_modal");
+            ele.style.display="none";
+        }
+        function toggleicon(ids){
+            var ele=document.getElementById(ids);
+            var temp =window.getComputedStyle(ele).display;
+            if(temp==="block"){
+                document.getElementById(ids).style.display="none"
+            }else{
+               
+                document.getElementById(ids).style.display="block"
+            }
+        }
+        function changeSteps(open1,close2,close3){
+            document.getElementById(open1).style.display="block";
+            document.getElementById(close2).style.display="none";
+            document.getElementById(close3).style.display="none";
+        }
+    </script>
+    <!-- recieve modal -->
+    <div class="modal" id="recieve_modal">
+        <div class="modal-content">
+            <div class="flex" style="margin-top: 15px;">
+                <div style="font-size: 22px;line-height: 26px;width: 95%;">
+                    <p>Recieve</p>
+                </div>
+                <div style="margin-top: 25px;margin-right: 33px;" onclick="close_modal()">
+                    <img src="styles/img/cross.png" class="icon" alt="">
+                </div>
+            </div>
+            <div class="flex" >
+                <div class="round-timesteps"
+                    style="margin-left: 100px;border: 1px solid #E19A4C;border-radius: 50%;padding: 3px;">
+                    <div style="background-color: #E19A4C; color: black;" onclick="changeSteps('step-1','step-2','step-3')">
+                        <p style="margin-top: 2px;">1</p>
+                        <p class="timestamp-head" style="color:#E19A4C">Device</p>
+                    </div>
+                </div>
+                <hr class="rt">
+                <div class="round-timesteps">
+                    <div onclick="changeSteps('step-2','step-1','step-3')">
+                        <p style="margin-top: 2px;">2</p>
+                        <p class="timestamp-head" style="margin-left: -10px;">Verification</p>
+                    </div>
+                </div>
+                <hr class="rt">
+                <div class="round-timesteps" style="margin-right: 100px;">
+                    <div onclick="changeSteps('step-3','step-1','step-2')">
+                        <p style="margin-top: 2px;">3</p>
+                        <p class="timestamp-head">Recieve</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 100px;" id="step-1">
+                <p
+                    style="font-size: 12px; line-height: 14px; color: #7E7D7D;margin-bottom:10px;margin-left: 111px;text-align: start;">
+                    Follow the instructions on device</p>
+                <div class="instruct" onclick="toggleicon('tick1')">
+                    <p class="flex"><strong style="color:#CAA276;font-size: 12px;margin-right: 15px;">&#8594;</strong> Select the
+                        Wallet On device <img src="styles/img/modal-tick.png" class="modal-tick" id="tick1" alt=""></p>
+                </div>
+                <div class="instruct" onclick="toggleicon('tick2')">
+                    <p class="flex"><strong style="color:#CAA276;font-size: 12px;margin-right: 15px;">&#8594;</strong> Select the
+                        Coin On device <img src="styles/img/modal-tick.png" class="modal-tick" id="tick2" alt=""></p>
+                </div>
+                <div class="instruct" onclick="toggleicon('tick3')">
+                    <p class="flex"><strong style="color:#CAA276;font-size: 12px;margin-right: 15px;">&#8594;</strong> Tap 1 Card on
+                        any 4 Cards <img src="styles/img/modal-tick.png" class="modal-tick" id="tick3" alt=""></p>
+                </div>
+            </div>
+            <div id="step-2">
+                <div class="step-2-div">
+                    <p>25BKJNKNLJL58fjkdhfk26dnfds15</p>
+                </div>
+                <div style="margin-top: 70px;">
+                    <p
+                        style="font-size: 12px; line-height: 14px; color: #7E7D7D;margin-bottom:10px;margin-left: 111px;text-align: start;">
+                        Verify address on device</p>
+                    <div class="instruct" onclick="toggleicon('tick4')">
+                        <p class="flex"><strong style="color:#CAA276;font-size: 12px;margin-right: 15px;">&#8594;</strong> Please match
+                            the address to be shown in X1 Wallet <img src="styles/img/modal-tick.png" class="modal-tick" id="tick4" alt=""></p>
+                    </div>
+                </div>
+            </div>
+            <div id="step-3">
+                <div style="margin-top: 70px;">
+                    <p
+                        style="font-size: 12px; line-height: 14px; color: #7E7D7D;margin-bottom:10px;margin-left: 111px;text-align: start;">
+                        Coin address</p>
+                    <div class="step-2-div flex" style="height: 62px;">
+                        <p style="padding-top: 0px;">25BKJNKNLJL58fjkdhfk26dnfds15</p>
+                        <button class="step-3-btn">Copy</button>
+                    </div>
+                </div>
+                <div class="flex" style="margin-left: 107px;margin-top: 20px;">
+                    <img src="styles/img/verify.png" class="s3-img" alt="">
+                    <p class="s3-p">address Verified</p>
+                </div>
+                <div>
+                    <button class="mb-button" style="color:#4848F6">Re - Verify</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
